@@ -22,9 +22,28 @@ int main(){
 
     //Devision of Variables
     students/=3;
-    students= /2
+    students= students /2;
+
+    cout << "Students:\t" << students << endl;
+
+    //Performing simple arithmetic operations
+    //NB: It uses BODMAS
+    
+    double Math1;
+    double Math2;
+    double Math3;
+    Math1 = 20 + (4 - 4) / 34;
+    Math2 = 20 + 4 - (4 /34);
+    Math3 = (20 + 4) - 4 / 34;
+
+    cout << "Math 1 \t"<< Math1 << endl;
+    cout << "Math 2 \t"<< Math2 << endl;
+    cout << "Math 3\t" << Math3 << endl;
+
+
     
 
-    cout << students << endl;
+
+        
     return 0;
 }
